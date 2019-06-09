@@ -69,4 +69,4 @@ client.on('message', msg => {
   }
 });
 
-client.login(precess.env.BOT_TOKEN);
+client.login('NTg2OTI2NzUxMDc5MjAyODY2.XPvNUg.o1RbrEKVf-cfFn8xIVPJgnr5hAU');
