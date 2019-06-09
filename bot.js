@@ -66,8 +66,7 @@ client.on('message', msg => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'kurucu') {
     msg.channel.sendMessage('ÇOK ACİL OLMADIKÇA KURUCULARI ETİKETLEMEYİNİZ @everyone');
-    permLevel:
   }
 });
 
-client.login('lalalalaal');
+client.login(precess.env.BOT_TOKEN);
